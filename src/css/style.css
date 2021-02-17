@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 26px;
+	color: red;
+	text-align: center;
+}
+
+div.review {
+	margin: 25px auto 0px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #000;
+}
+
+h2 {
+	margin: 0px;
+	color: #E9770B; 
+	font-size: 20px;
+}
+
+p.user_name {
+	margin: 20px 0px 0px 0px;
+}
+
+p.date {
+	margin: 20px 0px 0px;
+	padding-right: 40px;
+	color: #E9770B;
+	font-size: small;
+	text-align: right;
+}
+
+.review_text {
+	margin-top: 20px;
+	padding: 25px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	background-color: #97BEF4;
+}
+
+.review_text p {
+	font-style: italic;
+	letter-spacing: 5px;
+	color: #EDF33D;
+}
+
+div.review_total {
+	margin-top: 20px;
+}
+
+.review_total p {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+span.green {
+	color: green;
+	font-size: 20px;
+}
+
+span.red {
+	color: red;
+	font-size: 20px;
+}
+
+p.review_rate {
+	text-align: right;
+}
+
+div.user_rate, 
+.list_prize_date p {
+	padding: 10px 0px;
+	font-size: 14px;
+}
+
+.user_rate ol {
+	margin-top: 15px;
+	padding-left: 50px;
+	color: #e2ae9a;
+}
+
+div.list_prize_date {
+	margin-top: 25px;
+}
+
+div.list_prize_date ul {
+	color: #9933ff;
+	font-size: 33px;
+	list-style-image: url(../img/globus.png);
+	list-style-position: outside;
+	padding: 20px 80px;
+	border-radius: 20px;
+}
